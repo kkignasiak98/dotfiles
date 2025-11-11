@@ -1,0 +1,19 @@
+- defaults:
+    link:
+      relink: true
+      create: true
+      force: true
+
+- link:
+    ~/.zshrc: shell/.zshrc
+    ~/.config/helix/config.toml : helix/config.toml
+    ~/.config/zellij : zellij/config.kdl
+    ~/.config/zed : zed
+    ~/notes/obsidian : ./obsidian
+    ~/.config/starship.toml : starship/starship.toml
+    ~/Users/krzysztof.ignasiak/.gitconfig: git/.gitconfig
+    ~/.config/bat/config : bat/config
+
+- shell:
+  - command: starship preset no-empty-icons --output ~/.config/starship.toml
+    description: "Configure starship with no-empty-icons preset"
