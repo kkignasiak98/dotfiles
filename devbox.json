@@ -14,7 +14,8 @@
     "fzf@0.67.0",
     "zoxide@0.9.8",
     "git@2.51.2",
-    "lazydocker@0.24.2"
+    "lazydocker@0.24.2",
+    "devpod@0.6.15"
   ],
   "shell": {
     "init_hook": [
