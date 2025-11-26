@@ -1,7 +1,8 @@
-with import (fetchTarball "https://github.com/NixOS/nixpkgs/archive/nixpkgs-unstable.tar.gz") {}; [
-  obsidian
-  zed-editor
-  pcloud
-  megasync
-  #zen-browser # currently broken
-]
+nixpkgs#obsidian
+nixpkgs#zed-editor
+nixpkgs#pcloud
+nixpkgs#megasync
+nixpkgs#proton-pass
+nixpkgs#protonmail-desktop
+pnixpkgs#rotonvpn-gui
+github:youwen5/zen-browser-flake

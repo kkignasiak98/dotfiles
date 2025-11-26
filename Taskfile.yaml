@@ -1,0 +1,8 @@
+# https://taskfile.dev
+
+version: '3'
+
+tasks:
+  install_linux:
+    cmds:
+      - cat apps/linux/test_env.nix | xargs -I {} nix profile install --impure {}
