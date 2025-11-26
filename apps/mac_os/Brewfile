@@ -1,0 +1,13 @@
+
+tap "lyraphase/pcloud" #https://github.com/LyraPhase/homebrew-pcloud
+
+cask "obsidian"
+cask "zed"
+cask "pcloud-drive"
+cask "mega"
+cask "zen"
+cask "surfshark"
+cask "proton-mail"
+cask "protonvpn"
+cask "proton-pass"
+
