@@ -10,3 +10,7 @@ tasks:
   install_mac_os:
     cmds:
       - brew bundle -f apps/mac_os/Brewfile
+
+  install_windows:
+    cmds:
+      - choco install apps/windows/packages.config -y
