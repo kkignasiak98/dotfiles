@@ -1,0 +1,7 @@
+app.zen_browser.zen 
+dev.zed.Zed
+md.obsidian.Obsidian
+me.proton.Mail
+om.protonvpn.www
+me.proton.Pass
+com.surfshark.Surfshark

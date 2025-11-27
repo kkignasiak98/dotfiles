@@ -5,7 +5,8 @@ version: '3'
 tasks:
   install_linux:
     cmds:
-      - cat apps/linux/test_env.nix | xargs -I {} nix profile install --impure {}
+     - cat apps/linux/flatpak.txt | xargs -I {} flatpak install -y --noninteractive {}
+      - cat apps/linux/env.nix | xargs -I {} nix profile install --impure {}
 
   install_mac_os:
     cmds:
