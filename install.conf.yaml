@@ -18,3 +18,5 @@
 - shell:
   - command: starship preset no-empty-icons --output ~/.config/starship.toml
     description: "Configure starship with no-empty-icons preset"
+  - command: export NIXPKGS_ALLOW_UNFREE=1
+    description: "Unable unfree software for nix"
