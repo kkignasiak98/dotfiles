@@ -15,3 +15,17 @@ tasks:
   install_windows:
     cmds:
       - choco install apps/windows/packages.config -y
+
+    nixos_remove_old:
+      cmds:
+        - sudo nix-collect-garbage --delete-old
+
+    list_nix_channels:
+      cmds:
+        - nix-channel --list
+
+    update_nix_channels:
+      cmds:
+        - nix-channel --update
+
+    
