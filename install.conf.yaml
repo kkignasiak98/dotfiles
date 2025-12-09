@@ -7,13 +7,14 @@
 - link:
     ~/.zshrc: shell/.zshrc
     ~/.config/helix/config.toml : helix/config.toml
-    ~/.config/zellij : zellij/config.kdl
+    ~/.config/zellij : zellij
     ~/.config/zed : zed
-    ~/notes/obsidian : ./obsidian
+    ~/notes/.obsidian : ./obsidian
     ~/.config/starship.toml : starship/starship.toml
     ~/Users/krzysztof.ignasiak/.gitconfig: git/.gitconfig
     ~/.config/bat/config : bat/config
     ~/.config/nixpkgs: nixpkgs/config.nix
+    ~/.config/yazi: yazi
 
 - shell:
   - command: starship preset no-empty-icons --output ~/.config/starship.toml
